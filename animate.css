@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: crimson;
+    height: 50px;
+    width: 100%;
+    color: black;
+    font-family: Architects Daughter;
+    text-align: center;
+    border-radius: 10%;
+}
+footer {
+    background-color: crimson;
+    height: 75px;
+    width: 100%;
+    color: black;
+    font-family: Russo One;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%;
+    position: relative;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: chocolate;
+    font-family: sans-serif;
+    visibility: hidden;
+
+}
+img {
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    margin: 25px 10px;
+    padding: 25px;
+
+}
+.beast:hover > h2 {
+    visibility: visible;
+}
+.beast:hover > img {
+   visibility: hidden;
+
+}
+
+.parent{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.beast{
+    position: relative;
+}
+#ferrari h2 {
+    color: orangered;
+}
+#rolls h2 {
+    color: cornflowerblue;
+}
+#tesla h2 {
+    color: deepskyblue;
+}
+#audi h2 {
+    color: firebrick;
+}
+#alfa h2 {
+    color: darkorange;
+}
+#lambo h2 {
+    color: dodgerblue;
+}
+/*#facebook:hover {
+   animation-play-state: running;
+    animation: spin 10s linear infinite;
+}*/
+
+i {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    display: block;
+    color: orange;
+}
+
+
+
+
+
+
